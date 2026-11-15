@@ -1,7 +1,4 @@
-# 안녕하세요, 손건영입니다 👋
-
-동국대학교 정보통신공학과 4학년이고, **엣지 디바이스 위에서 실제로 돌아가는 AI 시스템**을 만듭니다.
-Jetson 온디바이스 추론, 음성 인터페이스, 그리고 이를 묶는 백엔드·실시간 프론트엔드까지 전체 흐름을 다룹니다.
+동국대학교 정보통신공학전공
 
 ## 🚀 Projects
 
@@ -9,7 +6,7 @@ Jetson 온디바이스 추론, 음성 인터페이스, 그리고 이를 묶는 �
 > 에스컬레이터 방향, 엘리베이터 문 상태, 장애물을 접촉 전에 음성으로 안내하는 착용형 AI 시스템 (한이음 드림업)
 
 - Jetson Orin Nano 한 대에서 **YOLO(33클래스) → Optical Flow 방향 판정 → 규칙/VLM 라우터 → STT/TTS**를 전부 오프라인으로 처리
-- VLM 출력을 그대로 쓰지 않고 YOLO·Flow 메타데이터와 대조하는 **안전 검증 + 결정적 fallback** 구조
+- VLM 출력을 그대로 쓰지 않고 YOLO·Flow 메타데이터와 대조하는 안전 검증 + 결정적 fallback 구조
 - `Python` `YOLO` `OpenCV` `SmolVLM` `llama.cpp` `faster-whisper` `MeloTTS` `Flask` `Jetson`
 - 📂 [VIAssist_Total](https://github.com/VIAssist-Edge/VIAssist_Total) · [vlm](https://github.com/VIAssist-Edge/vlm) · [YOLO_pipeline](https://github.com/VIAssist-Edge/YOLO_pipeline) · [Optical-flow](https://github.com/VIAssist-Edge/Optical-flow)
 
@@ -36,11 +33,3 @@ Jetson 온디바이스 추론, 음성 인터페이스, 그리고 이를 묶는 �
 
 - `Next.js` `React` `TypeScript` `Tailwind CSS` `Chart.js`
 
-## 🛠 Tech Stack
-
-| 분야 | 기술 |
-|---|---|
-| Embedded / Edge AI | NVIDIA Jetson Orin Nano, YOLO, OpenCV, VLM(SmolVLM · llama.cpp), Whisper |
-| Backend | Python, FastAPI, Flask, MySQL, SQLAlchemy, WebSocket |
-| Frontend | React, Next.js, TypeScript, Tailwind CSS, three.js |
-| DevOps | Docker, Git |
